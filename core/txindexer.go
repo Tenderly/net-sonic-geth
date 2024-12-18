@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-sonic-geth/core/rawdb"
+	"github.com/tenderly/net-sonic-geth/ethdb"
+	"github.com/tenderly/net-sonic-geth/log"
 )
 
 // TxIndexProgress is the struct describing the progress for transaction indexing.

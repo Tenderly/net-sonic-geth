@@ -21,13 +21,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-sonic-geth/common"
+	cmath "github.com/tenderly/net-sonic-geth/common/math"
+	"github.com/tenderly/net-sonic-geth/core/tracing"
+	"github.com/tenderly/net-sonic-geth/core/types"
+	"github.com/tenderly/net-sonic-geth/core/vm"
+	"github.com/tenderly/net-sonic-geth/crypto/kzg4844"
+	"github.com/tenderly/net-sonic-geth/params"
 	"github.com/holiman/uint256"
 )
 

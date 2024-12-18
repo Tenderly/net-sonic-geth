@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-sonic-geth/accounts"
+	"github.com/tenderly/net-sonic-geth/accounts/keystore"
+	"github.com/tenderly/net-sonic-geth/cmd/utils"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/crypto"
 	"github.com/urfave/cli/v2"
 )
 

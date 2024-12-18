@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-sonic-geth"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/common/hexutil"
+	"github.com/tenderly/net-sonic-geth/core/types"
+	"github.com/tenderly/net-sonic-geth/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.
