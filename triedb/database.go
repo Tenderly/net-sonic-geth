@@ -19,15 +19,15 @@ package triedb
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
-	"github.com/ethereum/go-ethereum/triedb/database"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/core/rawdb"
+	"github.com/tenderly/net-sonic-geth/ethdb"
+	"github.com/tenderly/net-sonic-geth/log"
+	"github.com/tenderly/net-sonic-geth/trie/trienode"
+	"github.com/tenderly/net-sonic-geth/trie/triestate"
+	"github.com/tenderly/net-sonic-geth/triedb/database"
+	"github.com/tenderly/net-sonic-geth/triedb/hashdb"
+	"github.com/tenderly/net-sonic-geth/triedb/pathdb"
 )
 
 // Config defines all necessary options for database.

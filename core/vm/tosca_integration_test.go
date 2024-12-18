@@ -3,7 +3,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
+	"github.com/tenderly/net-sonic-geth/core/tracing"
 )
 
 func TestGetInterpreter_ProducesInterpretersBasedOnConfiguration(t *testing.T) {
