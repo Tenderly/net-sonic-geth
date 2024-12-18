@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/compiler"
+	"github.com/tenderly/net-sonic-geth/cmd/evm/internal/compiler"
 
 	"github.com/urfave/cli/v2"
 )

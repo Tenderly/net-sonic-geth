@@ -18,7 +18,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/tenderly/net-sonic-geth/core/vm"
 )
 
 func TestMemCopying(t *testing.T) {
