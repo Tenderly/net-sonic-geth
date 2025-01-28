@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-sonic-geth/params"
 	"testing"
 )
 

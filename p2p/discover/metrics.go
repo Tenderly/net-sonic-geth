@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net/netip"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/net-sonic-geth/metrics"
 )
 
 const (
