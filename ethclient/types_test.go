@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-sonic-geth"
+	"github.com/tenderly/net-sonic-geth/common"
 )
 
 func TestToFilterArg(t *testing.T) {

@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/core/rawdb"
+	"github.com/tenderly/net-sonic-geth/core/state"
+	"github.com/tenderly/net-sonic-geth/core/vm"
+	"github.com/tenderly/net-sonic-geth/internal/flags"
+	"github.com/tenderly/net-sonic-geth/tests"
 	"github.com/urfave/cli/v2"
 )
 

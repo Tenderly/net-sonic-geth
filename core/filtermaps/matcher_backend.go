@@ -19,8 +19,8 @@ package filtermaps
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/core/types"
 )
 
 // FilterMapsMatcherBackend implements MatcherBackend.

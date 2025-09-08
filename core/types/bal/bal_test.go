@@ -23,9 +23,9 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/testrand"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/internal/testrand"
+	"github.com/tenderly/net-sonic-geth/rlp"
 	"github.com/holiman/uint256"
 )
 

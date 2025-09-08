@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/core"
+	"github.com/tenderly/net-sonic-geth/core/forkid"
+	"github.com/tenderly/net-sonic-geth/metrics"
+	"github.com/tenderly/net-sonic-geth/p2p"
 )
 
 const (

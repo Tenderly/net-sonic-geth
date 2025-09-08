@@ -24,17 +24,17 @@ import (
 	crand "crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/ethereum/go-ethereum/p2p/discover/discfilter"
+	"github.com/tenderly/net-sonic-geth/p2p/discover/discfilter"
 	"io"
 	"net/netip"
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v4wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/tenderly/net-sonic-geth/crypto"
+	"github.com/tenderly/net-sonic-geth/log"
+	"github.com/tenderly/net-sonic-geth/p2p/discover/v4wire"
+	"github.com/tenderly/net-sonic-geth/p2p/enode"
+	"github.com/tenderly/net-sonic-geth/p2p/netutil"
 )
 
 // Errors

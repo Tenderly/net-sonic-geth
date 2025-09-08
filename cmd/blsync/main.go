@@ -22,13 +22,13 @@ import (
 	"os"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/beacon/blsync"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-sonic-geth/beacon/blsync"
+	"github.com/tenderly/net-sonic-geth/cmd/utils"
+	"github.com/tenderly/net-sonic-geth/internal/debug"
+	"github.com/tenderly/net-sonic-geth/internal/flags"
+	"github.com/tenderly/net-sonic-geth/log"
+	"github.com/tenderly/net-sonic-geth/node"
+	"github.com/tenderly/net-sonic-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 
