@@ -20,9 +20,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/ethdb"
+	"github.com/tenderly/net-sonic-geth/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

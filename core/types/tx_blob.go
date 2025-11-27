@@ -24,10 +24,10 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/crypto/kzg4844"
+	"github.com/tenderly/net-sonic-geth/params"
+	"github.com/tenderly/net-sonic-geth/rlp"
 	"github.com/holiman/uint256"
 )
 

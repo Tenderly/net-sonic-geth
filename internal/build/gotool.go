@@ -25,7 +25,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/download"
+	"github.com/tenderly/net-sonic-geth/internal/download"
 )
 
 type GoToolchain struct {

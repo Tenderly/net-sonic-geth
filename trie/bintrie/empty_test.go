@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-sonic-geth/common"
 )
 
 // TestEmptyGet tests the Get method

@@ -25,17 +25,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/tenderly/net-sonic-geth/accounts"
+	"github.com/tenderly/net-sonic-geth/accounts/keystore"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/common/hexutil"
+	"github.com/tenderly/net-sonic-geth/core/types"
+	"github.com/tenderly/net-sonic-geth/internal/ethapi"
+	"github.com/tenderly/net-sonic-geth/rlp"
+	"github.com/tenderly/net-sonic-geth/signer/core"
+	"github.com/tenderly/net-sonic-geth/signer/core/apitypes"
+	"github.com/tenderly/net-sonic-geth/signer/fourbyte"
+	"github.com/tenderly/net-sonic-geth/signer/storage"
 )
 
 // Used for testing

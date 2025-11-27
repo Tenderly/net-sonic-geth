@@ -1,11 +1,11 @@
 package rpc_test_utils
 
 import (
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-sonic-geth/accounts"
+	"github.com/tenderly/net-sonic-geth/eth/tracers"
+	"github.com/tenderly/net-sonic-geth/internal/ethapi"
+	"github.com/tenderly/net-sonic-geth/params"
+	"github.com/tenderly/net-sonic-geth/rpc"
 )
 
 // GetRpcApis returns a list of RPC APIs for testing

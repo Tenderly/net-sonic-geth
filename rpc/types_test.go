@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-sonic-geth/common"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

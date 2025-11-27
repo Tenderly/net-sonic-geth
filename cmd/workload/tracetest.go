@@ -23,11 +23,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/crypto"
+	"github.com/tenderly/net-sonic-geth/eth/tracers"
+	"github.com/tenderly/net-sonic-geth/internal/utesting"
+	"github.com/tenderly/net-sonic-geth/log"
 	"github.com/urfave/cli/v2"
 )
 

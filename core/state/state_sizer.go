@@ -26,12 +26,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/core/rawdb"
+	"github.com/tenderly/net-sonic-geth/crypto"
+	"github.com/tenderly/net-sonic-geth/ethdb"
+	"github.com/tenderly/net-sonic-geth/log"
+	"github.com/tenderly/net-sonic-geth/triedb"
 	"golang.org/x/sync/errgroup"
 )
 

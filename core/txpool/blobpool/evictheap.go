@@ -22,7 +22,7 @@ import (
 	"math"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-sonic-geth/common"
 	"github.com/holiman/uint256"
 )
 

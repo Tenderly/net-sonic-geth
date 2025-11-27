@@ -19,15 +19,15 @@ package native
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/internal"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/common/hexutil"
+	"github.com/tenderly/net-sonic-geth/core/tracing"
+	"github.com/tenderly/net-sonic-geth/core/vm"
+	"github.com/tenderly/net-sonic-geth/crypto"
+	"github.com/tenderly/net-sonic-geth/eth/tracers"
+	"github.com/tenderly/net-sonic-geth/eth/tracers/internal"
+	"github.com/tenderly/net-sonic-geth/log"
+	"github.com/tenderly/net-sonic-geth/params"
 )
 
 func init() {

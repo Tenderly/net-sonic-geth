@@ -27,13 +27,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/core/types"
+	"github.com/tenderly/net-sonic-geth/internal/era"
+	"github.com/tenderly/net-sonic-geth/internal/ethapi"
+	"github.com/tenderly/net-sonic-geth/internal/flags"
+	"github.com/tenderly/net-sonic-geth/params"
+	"github.com/tenderly/net-sonic-geth/trie"
 	"github.com/urfave/cli/v2"
 )
 

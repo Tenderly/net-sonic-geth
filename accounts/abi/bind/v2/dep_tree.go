@@ -22,8 +22,8 @@ import (
 	"maps"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-sonic-geth/common"
+	"github.com/tenderly/net-sonic-geth/core/types"
 )
 
 // DeploymentParams contains parameters needed to deploy one or more contracts via LinkAndDeploy
